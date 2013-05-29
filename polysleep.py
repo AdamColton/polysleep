@@ -3,12 +3,13 @@ import math
 MAX_SLEEP = 480
 MIN_SLEEP = 120
 MIN_SECONDARY = 20
+SECONDARY_CYCLES = 5
 
 percent = lambda s: 1.0 - (1.0*s - MIN_SLEEP) / ( MAX_SLEEP - MIN_SLEEP)
 secondaryTotal = lambda s: s * (secondaryTotal.m * percent(s) + secondaryTotal.b) # s*(mx+b)
 secondaryTotal.b = (1.0 * MIN_SECONDARY) / MAX_SLEEP
 secondaryTotal.m = ((1.0 * MIN_SLEEP - MIN_SECONDARY) / MIN_SLEEP) - secondaryTotal.b
-cycles = lambda s: math.floor( percent(s)*4 ) + 1;
+cycles = lambda s: math.floor( percent(s)*(SECONDARY_CYCLES-1) ) + 1;
 secondary = lambda s: secondaryTotal(s) / cycles(s)
 primary = lambda s: s - secondaryTotal(s)
 totalWake = lambda s: 1440 - s
