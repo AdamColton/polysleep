@@ -29,4 +29,5 @@ The terms in caps are the givens of the problem. Everything is defined by minute
 * primary: how long the primary sleep cycle will be
 * totalWake: total wakeful minutes in a day
 * wake: how long each individual wake cycle will be
-
+* pseudoPrime: The sum of primary, one wake cycle and one secondary sleep cycle. The concept is to try and line up with a normal schedule, which happens most optimally around 4:40 of sleep. Someone sleeping on this schedule could go to bed with a partner at a normal time, wake up 2:25 later, be active for 4:50, then return to bed for a 0:44 nap waking normally with their partner.
+* gain: the gain in conscious hours

@@ -3,111 +3,149 @@ Primary Sleep: 7:40
 Wake: 8:00
 Nap: 1.0 X 0:20
 Total Wakeful Time: 16:00
+Gain: 0:00
+Pseudo-primary: 16:00
 
 == Breakdown for 7:40 sleep ==
 Primary Sleep: 7:00
 Wake: 8:10
 Nap: 1.0 X 0:39
 Total Wakeful Time: 16:20
+Gain: 0:20
+Pseudo-primary: 15:50
 
 == Breakdown for 7:20 sleep ==
 Primary Sleep: 6:22
 Wake: 8:20
 Nap: 1.0 X 0:57
 Total Wakeful Time: 16:40
+Gain: 0:40
+Pseudo-primary: 15:40
 
 == Breakdown for 7:00 sleep ==
 Primary Sleep: 5:47
 Wake: 8:30
 Nap: 1.0 X 1:12
 Total Wakeful Time: 17:00
+Gain: 1:00
+Pseudo-primary: 15:30
 
 == Breakdown for 6:40 sleep ==
 Primary Sleep: 5:12
 Wake: 8:40
 Nap: 1.0 X 1:27
 Total Wakeful Time: 17:20
+Gain: 1:20
+Pseudo-primary: 15:20
 
 == Breakdown for 6:20 sleep ==
 Primary Sleep: 4:40
 Wake: 5:53
 Nap: 2.0 X 0:49
 Total Wakeful Time: 17:40
+Gain: 1:40
+Pseudo-primary: 11:23
 
 == Breakdown for 6:00 sleep ==
 Primary Sleep: 4:09
 Wake: 6:00
 Nap: 2.0 X 0:55
 Total Wakeful Time: 18:00
+Gain: 2:00
+Pseudo-primary: 11:05
 
 == Breakdown for 5:40 sleep ==
 Primary Sleep: 3:41
 Wake: 6:06
 Nap: 2.0 X 0:59
 Total Wakeful Time: 18:20
+Gain: 2:20
+Pseudo-primary: 10:47
 
 == Breakdown for 5:20 sleep ==
 Primary Sleep: 3:14
 Wake: 6:13
 Nap: 2.0 X 1:02
 Total Wakeful Time: 18:40
+Gain: 2:40
+Pseudo-primary: 10:30
 
 == Breakdown for 5:00 sleep ==
 Primary Sleep: 2:48
 Wake: 4:45
 Nap: 3.0 X 0:43
 Total Wakeful Time: 19:00
+Gain: 3:00
+Pseudo-primary: 8:17
 
 == Breakdown for 4:40 sleep ==
 Primary Sleep: 2:25
 Wake: 4:50
 Nap: 3.0 X 0:44
 Total Wakeful Time: 19:20
+Gain: 3:20
+Pseudo-primary: 8:00
 
 == Breakdown for 4:20 sleep ==
 Primary Sleep: 2:03
 Wake: 4:55
 Nap: 3.0 X 0:45
 Total Wakeful Time: 19:40
+Gain: 3:40
+Pseudo-primary: 7:43
 
 == Breakdown for 4:00 sleep ==
 Primary Sleep: 1:43
 Wake: 5:00
 Nap: 3.0 X 0:45
 Total Wakeful Time: 20:00
+Gain: 4:00
+Pseudo-primary: 7:28
 
 == Breakdown for 3:40 sleep ==
 Primary Sleep: 1:25
 Wake: 5:05
 Nap: 3.0 X 0:44
 Total Wakeful Time: 20:20
+Gain: 4:20
+Pseudo-primary: 7:15
 
 == Breakdown for 3:20 sleep ==
 Primary Sleep: 1:08
 Wake: 4:08
 Nap: 4.0 X 0:32
 Total Wakeful Time: 20:40
+Gain: 4:40
+Pseudo-primary: 5:49
 
 == Breakdown for 3:00 sleep ==
 Primary Sleep: 0:53
 Wake: 4:12
 Nap: 4.0 X 0:31
 Total Wakeful Time: 21:00
+Gain: 5:00
+Pseudo-primary: 5:37
 
 == Breakdown for 2:40 sleep ==
 Primary Sleep: 0:40
 Wake: 4:16
 Nap: 4.0 X 0:29
 Total Wakeful Time: 21:20
+Gain: 5:20
+Pseudo-primary: 5:26
 
 == Breakdown for 2:20 sleep ==
 Primary Sleep: 0:29
 Wake: 4:20
 Nap: 4.0 X 0:27
 Total Wakeful Time: 21:40
+Gain: 5:40
+Pseudo-primary: 5:17
 
 == Breakdown for 2:00 sleep ==
 Primary Sleep: 0:20
 Wake: 3:40
 Nap: 5.0 X 0:20
 Total Wakeful Time: 22:00
+Gain: 6:00
+Pseudo-primary: 4:20

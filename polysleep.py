@@ -16,17 +16,23 @@ wake = lambda s: totalWake(s) / (cycles(s) + 1)
 
 hmFormat = lambda m: str(int(m)/60) + ":" + format( int(m) - 60*(int(m)/60), "02d")
 
+pseudoPrime = lambda s: primary(s) + wake(s) + secondary(s)
+gain = lambda s: totalWake(s) - totalWake(MAX_SLEEP)
+
 def breakdown(sleep):
     s = []
     if sleep > MAX_SLEEP:
         s.append("ERROR: sleep exceeds MAX_SLEEP, setting to max")
     if sleep < MIN_SLEEP:
         s.append("ERROR: sleep below MIN_SLEEP, setting to min")
-    s.append( "== Breakdown for " + hmFormat(sleep) + " sleep==" )
+    s.append( "== Breakdown for " + hmFormat(sleep) + " sleep ==" )
     s.append( "Primary Sleep: " + hmFormat(primary(sleep)) )
     s.append( "Wake: " + hmFormat(wake(sleep)) )
     s.append( "Nap: " + str(cycles(sleep)) + " X " + hmFormat(secondary(sleep)) )
-    s.append( "Total Wakeful Time: " + hmFormat(totalWake(sleep)))
+    s.append( "Total Wakeful Time: " + hmFormat(totalWake(sleep)) )
+    s.append( "Gain: " + hmFormat(gain(sleep)) )
+    s.append( "Pseudo-primary: " + hmFormat(pseudoPrime(sleep)) )
+    s.append( "" )
     return "\n".join(s)
 
 for i in range(MAX_SLEEP, MIN_SLEEP-1, -20):
